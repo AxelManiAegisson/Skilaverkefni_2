@@ -1,1 +1,1 @@
-web: app.py $PORT
+web: Verkefni_2.py $PORT
