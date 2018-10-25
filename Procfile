@@ -1,1 +1,1 @@
-web: Verkefni_2.py 
+web: python Verkefni_2.py 
