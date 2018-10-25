@@ -71,4 +71,7 @@ def static(skra):
 def villa(error):
     return "<h2 style ='color:red> þessi síða fannst ekki</h2> "
 
-run(host='localhost', port=8080, reloader=True,debug=True)
+try:
+    bottle.run(host="8.8.8.8", port=os.environ.get('PORT'))
+except:
+    run(debub=True)
